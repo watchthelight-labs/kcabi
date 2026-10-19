@@ -1,0 +1,6 @@
+dumps/
+*.macho
+__pycache__/
+*.pyc
+.export-staging/
+.DS_Store

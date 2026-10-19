@@ -1,0 +1,38 @@
+name: Report
+description: A bug, or a report from another Mac or macOS build
+body:
+  - type: input
+    id: machine
+    attributes:
+      label: Mac or Hackintosh model
+      placeholder: Legion 5 15IAX10 (Hackintosh, OpenCore 1.0.8)
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: macOS version and build, Python version, llvm-objdump version
+      placeholder: 26.7.1 (25G241), Python 3.9.6, MacPorts llvm 20
+    validations:
+      required: true
+  - type: input
+    id: command
+    attributes:
+      label: Tool and command line
+      placeholder: python3 linkcheck.py out/MyDriver.kext --own-lib as.vit9696.Lilu
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Full output
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you expected instead, and where that came from (for a size or a slot, the source of the right value).
+    validations:
+      required: true
