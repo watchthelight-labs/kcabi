@@ -1,0 +1,9 @@
+# IOAccelOrphanedVidMemoryPool: 8 slots (0x40 bytes)
+0	0x0	-
+1	0x8	-
+2	0x10	__ZN25IOAccelOrphanedMemoryPool4initEP22IOGraphicsAccelerator2yj
+3	0x18	__ZN25IOAccelOrphanedMemoryPool4freeEv
+4	0x20	__ZN25IOAccelOrphanedMemoryPool9getMemoryEP14IOAccelShared2P16IOAccelResource2yPv
+5	0x28	__ZN28IOAccelOrphanedVidMemoryPool20freeWaitToPrepareMapEP16IOAccelMemoryMapb
+6	0x30	__ZN28IOAccelOrphanedVidMemoryPool23freeWaitToPrepareMemoryEP13IOAccelMemoryb
+7	0x38	-

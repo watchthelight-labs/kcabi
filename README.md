@@ -19,6 +19,7 @@ Nothing here writes to the system. The collection is opened read-only with `mmap
 | `compare.py` | Diffs two dumps: size changes, vtable slots that moved, request IDs whose handler changed, and which functions changed (with the field offsets, virtual-call slots and callees that differ). |
 | `genhdr.py` | Turns a dump into slot-exact C++ headers for the private IO80211 / IOSkywalk classes a native Wi-Fi driver subclasses, and checks them by compiling a probe subclass with clang and comparing its vtable layout slot by slot with Apple's. |
 | `refresh.py` | The after-update command: dump the new build, compare it with the build your kext was verified on, print a verdict (unchanged, relayout, review), optionally run your build script. |
+| `gfxdump.py` | The graphics-side ABI of one build (IOAcceleratorFamily2, IOGraphicsFamily, IOSurface): vtables, method lists and instance sizes from both kernel collections, in `dump.py`'s layout so `compare.py` diffs builds. Baselines in `abi/graphics/<build>`. |
 | `functions-extra.txt` | Extra functions `dump.py` disassembles on every build (mangled names, a trailing `*` is a prefix). |
 
 `linkcheck.py`, `kcfile.py` and `disasm.py` are general. `dump.py`, `compare.py`, `genhdr.py` and `refresh.py` were written for a native IO80211 front end (the MT7925 driver in [mt7925-hackintosh-wifi-native](https://github.com/watchthelight-labs/mt7925-hackintosh-wifi-native)); their class lists are at the top of each file and are easy to change for other families.

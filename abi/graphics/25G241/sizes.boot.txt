@@ -1,0 +1,26 @@
+# class	instance size (MetaClass ctor ECX)	owner
+IOFence	0xd8	com.apple.iokit.IOSurface
+IOFenceTransaction	0x58	com.apple.iokit.IOSurface
+IOSurface	0x3e0	com.apple.iokit.IOSurface
+IOSurfaceClient	0x98	com.apple.iokit.IOSurface
+IOSurfaceDescriptor	0x18	com.apple.iokit.IOSurface
+IOSurfaceDescriptorComponent	0x20	com.apple.iokit.IOSurface
+IOSurfaceDescriptorContext	0x40	com.apple.iokit.IOSurface
+IOSurfaceDeviceCache	0x68	com.apple.iokit.IOSurface
+IOSurfaceDeviceMemoryRegion	0x60	com.apple.iokit.IOSurface
+IOSurfaceMemoryPool	0xb0	com.apple.iokit.IOSurface
+IOSurfaceMemoryPoolBunch	0x48	com.apple.iokit.IOSurface
+IOSurfaceMemoryRegion	0x28	com.apple.iokit.IOSurface
+IOSurfaceMemoryTag	0x38	com.apple.iokit.IOSurface
+IOSurfaceRoot	0x4b8	com.apple.iokit.IOSurface
+IOSurfaceRootParavirtMapperInterface	0x10	com.apple.iokit.IOSurface
+IOSurfaceRootUserClient	0x148	com.apple.iokit.IOSurface
+IOSurfaceSendRight	0x28	com.apple.iokit.IOSurface
+IOSurfaceShared	0x48	com.apple.iokit.IOSurface
+IOSurfaceSharedEvent	0x60	com.apple.iokit.IOSurface
+IOSurfaceSharedEventListener	0x50	com.apple.iokit.IOSurface
+IOSurfaceSharedEventNotification	0x70	com.apple.iokit.IOSurface
+IOSurfaceSharedEventNotificationPort	0x90	com.apple.iokit.IOSurface
+IOSurfaceSharedEventReference	0x18	com.apple.iokit.IOSurface
+IOSurfaceTransaction	0x30	com.apple.iokit.IOSurface
+IOSurfaceWiredSendRight	0x28	com.apple.iokit.IOSurface
