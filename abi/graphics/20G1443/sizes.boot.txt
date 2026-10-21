@@ -1,0 +1,18 @@
+# class	instance size (MetaClass ctor ECX)	owner
+IOFence	0xc0	com.apple.iokit.IOSurface
+IOSurface	0x408	com.apple.iokit.IOSurface
+IOSurfaceBufferMemoryDescriptorPool	0x60c0	com.apple.iokit.IOSurface
+IOSurfaceClient	0x98	com.apple.iokit.IOSurface
+IOSurfaceDescriptor	0x18	com.apple.iokit.IOSurface
+IOSurfaceDeviceCache	0x68	com.apple.iokit.IOSurface
+IOSurfaceDeviceMemoryRegion	0x60	com.apple.iokit.IOSurface
+IOSurfaceMemoryRegion	0x28	com.apple.iokit.IOSurface
+IOSurfaceRoot	0x1f0	com.apple.iokit.IOSurface
+IOSurfaceRootUserClient	0x150	com.apple.iokit.IOSurface
+IOSurfaceSendRight	0x20	com.apple.iokit.IOSurface
+IOSurfaceSharedEvent	0x48	com.apple.iokit.IOSurface
+IOSurfaceSharedEventListener	0x38	com.apple.iokit.IOSurface
+IOSurfaceSharedEventNotification	0x68	com.apple.iokit.IOSurface
+IOSurfaceSharedEventNotificationPort	0x88	com.apple.iokit.IOSurface
+IOSurfaceSharedEventReference	0x18	com.apple.iokit.IOSurface
+IOSurfaceWiredSendRight	0x28	com.apple.iokit.IOSurface

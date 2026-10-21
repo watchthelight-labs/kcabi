@@ -1,0 +1,1 @@
+0x1538793a	__ZN24IOAccelCommandDescriptor4initEP22IOGraphicsAccelerator2

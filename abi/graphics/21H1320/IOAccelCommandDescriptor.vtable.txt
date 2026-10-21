@@ -1,0 +1,5 @@
+# IOAccelCommandDescriptor: 4 slots (0x20 bytes)
+0	0x0	-
+1	0x8	-
+2	0x10	__ZN24IOAccelCommandDescriptor4initEP22IOGraphicsAccelerator2
+3	0x18	-
