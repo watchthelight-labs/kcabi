@@ -1,9 +1,5 @@
 # kcabi
 
-> **Heads up:** a good portion of this code is AI generated. I do understand how it works,
-> and I'm happy to explain any of it. If something looks wrong or you have a question,
-> open an issue or ping me on Discord (`watchthelight`).
-
 Read-only Python tools for the x86_64 kernel collections of macOS 11 and later (`BootKernelExtensions.kc`, a Mach-O `MH_FILESET`). They answer the questions you hit when you write a kext for a Hackintosh against private Apple classes: will this kext link, what are the vtable slots and instance sizes of an Apple class on this build, and what changed in them after a macOS update.
 
 Nothing here writes to the system. The collection is opened read-only with `mmap`; the only files written are the outputs you name and a cache of carved Mach-O copies.
