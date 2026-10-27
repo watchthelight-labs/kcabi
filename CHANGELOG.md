@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- `gfxdump.py`: graphics family ABI (IOAcceleratorFamily2, IOGraphicsFamily, IOSurface) from both kernel collections, in `dump.py`'s layout. Baselines in `abi/graphics/` for 20G1443, 21H1320, 22H730, 23J631, 24H32 and 25G241 (2026-10-21).
+
 ## 0.1.0 (2026-10-19)
 
 - First release as its own repo. The tools were written for the MT7925 native Wi-Fi driver and lived in its `tools/kcabi`.
