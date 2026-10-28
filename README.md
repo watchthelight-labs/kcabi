@@ -109,8 +109,9 @@ Tested on macOS 26.7.1 (25G241), x86_64, on a Hackintosh (Lenovo Legion 5 15IAX1
 - `dump.py` of 25G241: 48 vtables, 329 instance sizes, 417 functions. Comparing it with an earlier dump of the same build gives 418 identical functions and no differences.
 - `genhdr.py gen` and `check` on that dump: the 9 headers verify, and they match the headers the MT7925 native driver builds against.
 - `refresh.py` from a macOS 15 (24H32) dump to 25G241: verdict review (request tables grew from 561 to 586 IDs, Skywalk classes grew by 0x10 bytes).
+- `dump.py` and `compare.py` on macOS 26.7.2 (25G332), on a boot kernel collection rebuilt from Apple's delta OTA before the update was installed: instance sizes, vtables and the ioctl dispatch tables unchanged from 25G241. The MT7925 native driver built on that result came up on the real 25G332 on 2026-10-28.
 
-Only one machine and two builds have been through it. Reports from other builds are welcome (see CONTRIBUTING.md).
+Only one machine and three builds have been through it. Reports from other builds are welcome (see CONTRIBUTING.md).
 
 ## How it works
 
