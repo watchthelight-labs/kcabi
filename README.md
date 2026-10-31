@@ -1,4 +1,6 @@
-# kcabi
+# WTLKcAbi
+
+Renamed from `kcabi` on 2026-10-31; the command is still `kcabi`. Old links redirect here.
 
 Read-only Python tools for the x86_64 kernel collections of macOS 11 and later (`BootKernelExtensions.kc`, a Mach-O `MH_FILESET`). They answer the questions you hit when you write a kext for a Hackintosh against private Apple classes: will this kext link, what are the vtable slots and instance sizes of an Apple class on this build, and what changed in them after a macOS update.
 
@@ -18,7 +20,7 @@ Nothing here writes to the system. The collection is opened read-only with `mmap
 | `gfxdump.py` | The graphics-side ABI of one build (IOAcceleratorFamily2, IOGraphicsFamily, IOSurface): vtables, method lists and instance sizes from both kernel collections, in `dump.py`'s layout so `compare.py` diffs builds. Baselines in `abi/graphics/<build>`. |
 | `functions-extra.txt` | Extra functions `dump.py` disassembles on every build (mangled names, a trailing `*` is a prefix). |
 
-`linkcheck.py`, `kcfile.py` and `disasm.py` are general. `dump.py`, `compare.py`, `genhdr.py` and `refresh.py` were written for a native IO80211 front end (the MT7925 driver in [mt7925-hackintosh-wifi-native](https://github.com/watchthelight-labs/mt7925-hackintosh-wifi-native)); their class lists are at the top of each file and are easy to change for other families.
+`linkcheck.py`, `kcfile.py` and `disasm.py` are general. `dump.py`, `compare.py`, `genhdr.py` and `refresh.py` were written for a native IO80211 front end (the MT7925 driver in [WTLWifiMenu](https://github.com/watchthelight-labs/WTLWifiMenu)); their class lists are at the top of each file and are easy to change for other families.
 
 ## Examples
 
